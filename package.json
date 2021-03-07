@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "ems-desktop",
+  "description": "Managing your company has never been so easy",
+  "version": "1.0.0",
+  "author": "Kaym Kassai (kaymkassai.tech)",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "build": "nextron build",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "electron-serve": "^1.1.0",
+    "electron-store": "^7.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.12.13",
+    "electron": "^11.3.0",
+    "electron-builder": "^22.9.1",
+    "next": "^10.0.7",
+    "nextron": "^6.0.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

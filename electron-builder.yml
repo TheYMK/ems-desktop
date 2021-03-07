@@ -1,0 +1,12 @@
+appId: com.kaymkassai.emsdesktop
+productName: EMS Desktop
+copyright: Copyright © 2021 Kaym Kassai (kaymkassai.tech)
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null

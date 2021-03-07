@@ -1,0 +1,7 @@
+{
+    "presets": [
+      "nextron/babel",
+      "@babel/preset-react"
+    ],
+    "sourceType": "unambiguous"
+  }
